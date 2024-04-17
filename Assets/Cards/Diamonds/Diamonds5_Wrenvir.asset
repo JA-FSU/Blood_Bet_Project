@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: Diamonds5_Wrenvir
   m_EditorClassIdentifier: 
   Name: Wrenvir
+  Suit: 1
   Bet: 19
   Rank: 5
   Power: 2300

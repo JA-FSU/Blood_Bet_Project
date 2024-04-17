@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: Hearts5_Gret
   m_EditorClassIdentifier: 
   Name: Gret
+  Suit: 2
   Bet: 18
   Rank: 5
   Power: 2300

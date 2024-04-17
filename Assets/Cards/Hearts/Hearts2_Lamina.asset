@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: Hearts2_Lamina
   m_EditorClassIdentifier: 
   Name: Lamina
+  Suit: 2
   Bet: 9
   Rank: 2
   Power: 1100

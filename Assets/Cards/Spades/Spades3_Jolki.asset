@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: Spades3_Jolki
   m_EditorClassIdentifier: 
   Name: Jolki
+  Suit: 3
   Bet: 13
   Rank: 3
   Power: 1450

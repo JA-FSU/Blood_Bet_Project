@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: Diamonds1_Enrink
   m_EditorClassIdentifier: 
   Name: Enrink
+  Suit: 1
   Bet: 6
   Rank: 1
   Power: 550

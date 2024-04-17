@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: Diamonds4_Zyphor
   m_EditorClassIdentifier: 
   Name: Zyphor
+  Suit: 1
   Bet: 15
   Rank: 4
   Power: 1700

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: Diamonds1_Pala
   m_EditorClassIdentifier: 
   Name: Pala
+  Suit: 1
   Bet: 7
   Rank: 1
   Power: 650

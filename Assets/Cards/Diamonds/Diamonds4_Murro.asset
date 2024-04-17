@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: Diamonds4_Murro
   m_EditorClassIdentifier: 
   Name: Murro
+  Suit: 1
   Bet: 16
   Rank: 4
   Power: 1850

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: Hearts3_Mara
   m_EditorClassIdentifier: 
   Name: Mara
+  Suit: 2
   Bet: 12
   Rank: 3
   Power: 1350

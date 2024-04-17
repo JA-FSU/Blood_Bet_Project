@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: Hearts1_Facti
   m_EditorClassIdentifier: 
   Name: Facti
+  Suit: 2
   Bet: 6
   Rank: 1
   Power: 550

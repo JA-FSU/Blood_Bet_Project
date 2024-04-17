@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: Spades2_Mungi
   m_EditorClassIdentifier: 
   Name: Mungi
+  Suit: 3
   Bet: 10
   Rank: 2
   Power: 1150

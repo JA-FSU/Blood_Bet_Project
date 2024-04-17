@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: Spades4_Bomri
   m_EditorClassIdentifier: 
   Name: Bomri
+  Suit: 3
   Bet: 16
   Rank: 4
   Power: 1850

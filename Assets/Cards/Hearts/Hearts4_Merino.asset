@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: Hearts4_Merino
   m_EditorClassIdentifier: 
   Name: Merino
+  Suit: 2
   Bet: 16
   Rank: 4
   Power: 1800

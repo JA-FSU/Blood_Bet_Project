@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: Diamonds2_Murmyr
   m_EditorClassIdentifier: 
   Name: Murmyr
+  Suit: 1
   Bet: 8
   Rank: 2
   Power: 900

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: Hearts5_Gathering
   m_EditorClassIdentifier: 
   Name: The Gathering
+  Suit: 2
   Bet: 19
   Rank: 5
   Power: 2200

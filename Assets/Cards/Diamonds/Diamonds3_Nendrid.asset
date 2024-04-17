@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: Diamonds3_Nendrid
   m_EditorClassIdentifier: 
   Name: Nendrid
+  Suit: 1
   Bet: 13
   Rank: 3
   Power: 1350

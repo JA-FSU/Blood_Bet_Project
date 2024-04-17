@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: Hearts4_Neri
   m_EditorClassIdentifier: 
   Name: Neri
+  Suit: 2
   Bet: 15
   Rank: 4
   Power: 1700

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: Spades5_Zephyr
   m_EditorClassIdentifier: 
   Name: Zephyr
+  Suit: 3
   Bet: 18
   Rank: 5
   Power: 2000

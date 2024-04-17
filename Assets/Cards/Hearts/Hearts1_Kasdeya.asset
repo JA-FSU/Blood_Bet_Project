@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: Hearts1_Kasdeya
   m_EditorClassIdentifier: 
   Name: Kasdeya
+  Suit: 2
   Bet: 7
   Rank: 1
   Power: 850

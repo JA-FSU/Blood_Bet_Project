@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: Hearts2_Feruu
   m_EditorClassIdentifier: 
   Name: Feruu
+  Suit: 2
   Bet: 8
   Rank: 2
   Power: 700

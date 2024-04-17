@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: Hearts3_Nomn
   m_EditorClassIdentifier: 
   Name: Nomn
+  Suit: 2
   Bet: 14
   Rank: 3
   Power: 1550
