@@ -2,7 +2,6 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-[System.Serializable]
 public enum Suits
 {
     Clubs,
@@ -18,6 +17,7 @@ public enum Hand
     FullHouse
 }
 
+[System.Serializable]
 public class HandPower
 {
     public Hand Hand;
@@ -28,12 +28,11 @@ public class HandPower
 public class CardObject : ScriptableObject
 {
     public string Name;
-    //public Image CreatureArt
+    public Sprite CreatureArt;
     public Suits Suit;
     public int Bet;
     public int Rank;
     public int Power;
-    public string Description;
     public string CreatureType;
     public HandPower[] handPowers;
 }
