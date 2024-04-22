@@ -13,8 +13,10 @@ MonoBehaviour:
   m_Name: Clubs1_Grettin
   m_EditorClassIdentifier: 
   Name: Grettin
+  CreatureArt: {fileID: 0}
+  Suit: 0
   Bet: 6
   Rank: 1
   Power: 650
-  Description: 
   CreatureType: Leafling
+  handPowers: []
