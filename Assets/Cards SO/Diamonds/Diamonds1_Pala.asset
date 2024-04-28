@@ -13,9 +13,21 @@ MonoBehaviour:
   m_Name: Diamonds1_Pala
   m_EditorClassIdentifier: 
   Name: Pala
+  CreatureArt: {fileID: 0}
   Suit: 1
   Bet: 7
   Rank: 1
   Power: 650
-  Description: 
   CreatureType: Cloaked
+  handPowers:
+  - Hand: 0
+    HandDescription: Seal the top card of your deck. You may add it to your hand
+      after the draw phase before priority passes. +200 for each card Sealed this
+      turn.
+  - Hand: 1
+    HandDescription: For every spell you have Sealed, prevent 1 damage from this
+      round's Blood Bet if you lose this round.
+  - Hand: 2
+    HandDescription: Seal the top card of your deck. You may add a Sealed card to
+      your hand after the draw phase before priority passes. +500 for every card
+      Sealed this turn.

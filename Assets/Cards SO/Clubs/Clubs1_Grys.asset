@@ -13,8 +13,18 @@ MonoBehaviour:
   m_Name: Clubs1_Grys
   m_EditorClassIdentifier: 
   Name: Grys
+  CreatureArt: {fileID: 0}
+  Suit: 0
   Bet: 8
   Rank: 1
   Power: 700
-  Description: 
   CreatureType: Eldar
+  handPowers:
+  - Hand: 0
+    HandDescription: +600. You draw 1 less card this turn.
+  - Hand: 1
+    HandDescription: +150. Draw a card after the draw phase. If there are 5 or more
+      Pixins in your graveyard, draw 1 extra card.
+  - Hand: 2
+    HandDescription: +750. You draw 1 less card this turn. If you win this round,
+      draw a card after the draw phase.

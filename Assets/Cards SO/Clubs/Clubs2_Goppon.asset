@@ -13,8 +13,17 @@ MonoBehaviour:
   m_Name: Clubs2_Goppon
   m_EditorClassIdentifier: 
   Name: Goppon
+  CreatureArt: {fileID: 0}
+  Suit: 0
   Bet: 10
   Rank: 2
   Power: 1200
-  Description: 
   CreatureType: Leafling
+  handPowers:
+  - Hand: 0
+    HandDescription: +400. After the draw phase, your opponent reveals 1 card from
+      their hand.
+  - Hand: 1
+    HandDescription: +200. After the draw phase, your opponent discards 1 card.
+  - Hand: 2
+    HandDescription: +450. After the draw phase, your opponent reveals their hand.

@@ -13,8 +13,20 @@ MonoBehaviour:
   m_Name: Clubs4_Frellin
   m_EditorClassIdentifier: 
   Name: Frellin
+  CreatureArt: {fileID: 0}
+  Suit: 0
   Bet: 16
   Rank: 4
   Power: 1850
-  Description: 
   CreatureType: Leafling
+  handPowers:
+  - Hand: 0
+    HandDescription: +200. Look at the top card of your deck. You may place it at
+      the bottom.
+  - Hand: 1
+    HandDescription: Seek 2. Any cards addded to your hand this way may activate
+      their pair effects if they match a card in your straight.
+  - Hand: 2
+    HandDescription: '+350. Choose 1: Look at the top card of your deck. You may
+      place it at the bottom. -OR- Look at the top card of your opponent''s deck,
+      you may place it on the bottom.'

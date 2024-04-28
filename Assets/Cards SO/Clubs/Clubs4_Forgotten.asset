@@ -13,8 +13,17 @@ MonoBehaviour:
   m_Name: Clubs4_Forgotten
   m_EditorClassIdentifier: 
   Name: The Forgotten
+  CreatureArt: {fileID: 0}
+  Suit: 0
   Bet: 15
   Rank: 4
   Power: 1700
-  Description: 
   CreatureType: ???
+  handPowers:
+  - Hand: 0
+    HandDescription: +150.
+  - Hand: 1
+    HandDescription: For every 10 cards in players' graveyards, +200.
+  - Hand: 2
+    HandDescription: +300. For every 10 cards in both players' graveyards, you may
+      add a round counter to your House Card.

@@ -13,8 +13,17 @@ MonoBehaviour:
   m_Name: Clubs2_Alret
   m_EditorClassIdentifier: 
   Name: Alret
+  CreatureArt: {fileID: 0}
+  Suit: 0
   Bet: 11
   Rank: 2
   Power: 1250
-  Description: 
   CreatureType: Eldar
+  handPowers:
+  - Hand: 0
+    HandDescription: For every Eldar in your hand, +200.
+  - Hand: 1
+    HandDescription: Seek 1. For every Eldar in your hand, +100.
+  - Hand: 2
+    HandDescription: For every Eldar in your hand, Seek 1. If your hand reaches 10
+      cards or more this turn, +1,000.
