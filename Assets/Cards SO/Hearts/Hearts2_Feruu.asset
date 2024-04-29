@@ -12,10 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4c965952f9abb4147a3fd60652402905, type: 3}
   m_Name: Hearts2_Feruu
   m_EditorClassIdentifier: 
+  CardType: 1
   Name: Feruu
+  CardArt: {fileID: 0}
   Suit: 2
-  Bet: 8
-  Rank: 2
-  Power: 700
-  Description: 
-  CreatureType: Sootfoot

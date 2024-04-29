@@ -12,20 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4c965952f9abb4147a3fd60652402905, type: 3}
   m_Name: Clubs5_Reilla
   m_EditorClassIdentifier: 
+  CardType: 1
   Name: Reilla
-  CreatureArt: {fileID: 0}
+  CardArt: {fileID: 0}
   Suit: 0
-  Bet: 18
-  Rank: 5
-  Power: 2000
-  CreatureType: Leafling
-  handPowers:
-  - Hand: 0
-    HandDescription: +150. After the draw phase, search your deck for a Pixin card.
-      Reveal it, shuffle your deck, and place the card on the top.
-  - Hand: 1
-    HandDescription: You may put 1 card from your graveyard to the bottom of your
-      deck, then Seek 1.
-  - Hand: 2
-    HandDescription: For every Pixin in your hand or graveyard, +100. If you win
-      this round, you gain an extra round counter.

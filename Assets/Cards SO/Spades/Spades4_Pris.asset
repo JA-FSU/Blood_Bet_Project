@@ -12,10 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4c965952f9abb4147a3fd60652402905, type: 3}
   m_Name: Spades4_Pris
   m_EditorClassIdentifier: 
+  CardType: 1
   Name: Pris
+  CardArt: {fileID: 0}
   Suit: 3
-  Bet: 15
-  Rank: 4
-  Power: 1700
-  Description: 
-  CreatureType: Anura

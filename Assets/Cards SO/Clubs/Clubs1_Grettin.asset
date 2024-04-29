@@ -12,19 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4c965952f9abb4147a3fd60652402905, type: 3}
   m_Name: Clubs1_Grettin
   m_EditorClassIdentifier: 
+  CardType: 1
   Name: Grettin
-  CreatureArt: {fileID: 0}
+  CardArt: {fileID: 0}
   Suit: 0
-  Bet: 6
-  Rank: 1
-  Power: 650
-  CreatureType: Leafling
-  handPowers:
-  - Hand: 0
-    HandDescription: +450. You may Seek 1.
-  - Hand: 1
-    HandDescription: +200. Seek 1, if it shares a name with a creature within your
-      straight, you may activate both cards' pair effects.
-  - Hand: 2
-    HandDescription: Seek 1, if the revealed card does not match any cards in your
-      hand, +300.

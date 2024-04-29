@@ -12,10 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4c965952f9abb4147a3fd60652402905, type: 3}
   m_Name: Diamonds1_Enrink
   m_EditorClassIdentifier: 
+  CardType: 1
   Name: Enrink
+  CardArt: {fileID: 0}
   Suit: 1
-  Bet: 6
-  Rank: 1
-  Power: 550
-  Description: 
-  CreatureType: Eidolon

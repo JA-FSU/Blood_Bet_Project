@@ -12,10 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4c965952f9abb4147a3fd60652402905, type: 3}
   m_Name: Diamonds3_Nolte
   m_EditorClassIdentifier: 
+  CardType: 1
   Name: Nolte
+  CardArt: {fileID: 0}
   Suit: 1
-  Bet: 14
-  Rank: 3
-  Power: 1500
-  Description: 
-  CreatureType: Cloaked

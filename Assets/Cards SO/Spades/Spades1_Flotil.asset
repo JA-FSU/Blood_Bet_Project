@@ -12,10 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4c965952f9abb4147a3fd60652402905, type: 3}
   m_Name: Spades1_Flotil
   m_EditorClassIdentifier: 
+  CardType: 1
   Name: Flotil
+  CardArt: {fileID: 0}
   Suit: 3
-  Bet: 6
-  Rank: 1
-  Power: 750
-  Description: 
-  CreatureType: Muscarian

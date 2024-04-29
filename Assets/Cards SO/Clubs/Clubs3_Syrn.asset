@@ -12,20 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4c965952f9abb4147a3fd60652402905, type: 3}
   m_Name: Clubs3_Syrn
   m_EditorClassIdentifier: 
+  CardType: 1
   Name: Syrn
-  CreatureArt: {fileID: 0}
+  CardArt: {fileID: 0}
   Suit: 0
-  Bet: 12
-  Rank: 3
-  Power: 1300
-  CreatureType: Eldar
-  handPowers:
-  - Hand: 0
-    HandDescription: +300. After the draw phase, your opponent reveals 1 card from
-      their hand.
-  - Hand: 1
-    HandDescription: +200. Reveal the top card of your opponent's deck. You may put
-      it in the graveyard.
-  - Hand: 2
-    HandDescription: +400. Look at the top 5 cards of your opponent's deck. You may
-      put up to 3 in the graveyard. Put the rest in a random order back on top.

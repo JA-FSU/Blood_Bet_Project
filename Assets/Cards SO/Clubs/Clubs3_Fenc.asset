@@ -12,19 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4c965952f9abb4147a3fd60652402905, type: 3}
   m_Name: Clubs3_Fenc
   m_EditorClassIdentifier: 
+  CardType: 1
   Name: Fenc
-  CreatureArt: {fileID: 0}
+  CardArt: {fileID: 0}
   Suit: 0
-  Bet: 14
-  Rank: 3
-  Power: 1600
-  CreatureType: Leafling
-  handPowers:
-  - Hand: 0
-    HandDescription: +250. You may have both players Seek 1.
-  - Hand: 1
-    HandDescription: If your opponent has 10 or more cards in their graveyard, their
-      foremost creature -500.
-  - Hand: 2
-    HandDescription: +500. You may take 5 damage to gain 1 round counter, then your
-      opponent may take this action. If they do, you may repeat this process.

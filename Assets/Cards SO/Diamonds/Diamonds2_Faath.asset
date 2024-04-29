@@ -12,10 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4c965952f9abb4147a3fd60652402905, type: 3}
   m_Name: Diamonds2_Faath
   m_EditorClassIdentifier: 
+  CardType: 1
   Name: Faath
+  CardArt: {fileID: 0}
   Suit: 1
-  Bet: 12
-  Rank: 2
-  Power: 1250
-  Description: 
-  CreatureType: Eidolon
