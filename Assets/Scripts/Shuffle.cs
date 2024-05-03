@@ -2,19 +2,16 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-
 public class Shuffle : MonoBehaviour
 {
-    public DeckList deckList; // Reference the DeckList script where the array of GameObjects is stored
-
-   
+    public DeckList deckList; 
 
     public void ShuffleDeck()
     {
-        // Get the deck array of GameObjects from the DeckList script
+        //decklist array from the DeckList script
         GameObject[] deck = deckList.deckList;
 
-        // Shuffle the deck using Fisher-Yates algorithm
+        // Fisher-Yates algorithm 
         System.Random rng = new System.Random();
         int n = deck.Length;
         while (n > 1)
@@ -26,7 +23,7 @@ public class Shuffle : MonoBehaviour
             deck[n] = value;
         }
 
-        
+        // update the  decklist
+        deckList.UpdateDeck();
     }
-
 }

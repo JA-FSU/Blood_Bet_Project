@@ -4,11 +4,14 @@ using UnityEngine;
 
 public class DeckList : MonoBehaviour
 {
-    public GameObject[] deckList; // Array to store deck list
+    public GameObject[] deckList; // Array stores deck list
 
     public void UpdateDeck()
     {
-        //need to update decklist in scene
+        // list whats in array in console
+        for (int i = 0; i < deckList.Length; i++)
+        {
+            Debug.Log("Card " + i + ": " + deckList[i].name);
+        }
     }
-    
 }

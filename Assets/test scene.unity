@@ -191,7 +191,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Button
+  m_text: Shuffle
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -769,6 +769,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: deck test
       objectReference: {fileID: 0}
+    - target: {fileID: 2447956611156581714, guid: b5473909adcb93347a0a8832b32c4876, type: 3}
+      propertyPath: shuffle
+      value: 
+      objectReference: {fileID: 318053827}
+    - target: {fileID: 2447956611156581714, guid: b5473909adcb93347a0a8832b32c4876, type: 3}
+      propertyPath: deckList.Array.data[2]
+      value: 
+      objectReference: {fileID: 7765504137376634482, guid: 4b160b0efe80ea643b4f7bcf84b8d155, type: 3}
+    - target: {fileID: 2447956611156581714, guid: b5473909adcb93347a0a8832b32c4876, type: 3}
+      propertyPath: deckList.Array.data[3]
+      value: 
+      objectReference: {fileID: 7765504137376634482, guid: 4f65a410771a1994b8b334826d397d3d, type: 3}
     - target: {fileID: 7587789773170556306, guid: b5473909adcb93347a0a8832b32c4876, type: 3}
       propertyPath: m_LocalPosition.x
       value: -15.491074
