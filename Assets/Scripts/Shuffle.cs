@@ -4,12 +4,14 @@ using UnityEngine;
 
 public class Shuffle : MonoBehaviour
 {
-    public DeckList deckList; 
+    public DeckList deckList;
+    public DrawScript drawScript;
+    public GameObject[] deck;
 
     public void ShuffleDeck()
     {
         //decklist array from the DeckList script
-        GameObject[] deck = deckList.deckList;
+        deck = drawScript.currentDeck;
 
         // Fisher-Yates algorithm 
         System.Random rng = new System.Random();
@@ -25,5 +27,6 @@ public class Shuffle : MonoBehaviour
 
         // update the  decklist
         deckList.UpdateDeck();
+        drawScript.UpdateShuffledDeck();
     }
 }
