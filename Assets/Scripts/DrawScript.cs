@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class DrawScript : MonoBehaviour
 {
@@ -8,11 +9,11 @@ public class DrawScript : MonoBehaviour
     public int drawAmount;
     public Shuffle shuffledDeck;
 
-    [SerializeField]
-    List<string> currentHand;
-    [SerializeField]
+    public List<string> currentHand;
     public GameObject[] currentDeck;
     public List<string> currentDeckList;
+
+    public TextMeshProUGUI handText;
 
     // Start is called before the first frame update
     void Start()
@@ -29,7 +30,6 @@ public class DrawScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
         if (currentDeck.Length >= 7)
         {
             drawAmount = 7;
