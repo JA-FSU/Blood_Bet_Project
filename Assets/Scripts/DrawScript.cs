@@ -7,11 +7,11 @@ public class DrawScript : MonoBehaviour
 {
     public DeckList deckList;
     public int drawAmount;
-    public Shuffle shuffledDeck;
+    private Shuffle shuffledDeck;
 
-    public List<string> currentHand;
+    public List<GameObject> currentHand;
     public GameObject[] currentDeck;
-    public List<string> currentDeckList;
+    public List<GameObject> currentDeckList;
 
     public TextMeshProUGUI handText;
 
@@ -23,16 +23,16 @@ public class DrawScript : MonoBehaviour
 
         for (int i = 0; i < currentDeck.Length; i++)
         {
-            currentDeckList.Add(currentDeck[i].name);
+            currentDeckList.Add(currentDeck[i]);
         }
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (currentDeck.Length >= 7)
+        if (currentDeck.Length >= 5)
         {
-            drawAmount = 7;
+            drawAmount = 5;
         }
         else
         {
@@ -49,6 +49,8 @@ public class DrawScript : MonoBehaviour
                 currentHand.Add(currentDeckList[0]);
                 currentDeckList.RemoveAt(0);
             }
+
+            UpdateHandText();
         }
     }
 
@@ -58,6 +60,8 @@ public class DrawScript : MonoBehaviour
         {
             currentHand.Add(currentDeckList[0]);
             currentDeckList.RemoveAt(0);
+
+            UpdateHandText();
         }
     }
 
@@ -67,7 +71,17 @@ public class DrawScript : MonoBehaviour
         currentDeckList.Clear();
         for (int i = 0; i < currentDeck.Length; i++)
         {
-            currentDeckList.Add(currentDeck[i].name);
+            currentDeckList.Add(currentDeck[i]);
+        }
+    }
+
+    private void UpdateHandText()
+    {
+        handText.text = "Hand:\n";
+
+        for (int i = 0; i < currentHand.Count; i++)
+        {
+            handText.text += currentHand[i].name+"\n";
         }
     }
 }
