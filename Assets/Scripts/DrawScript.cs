@@ -93,11 +93,9 @@ public class DrawScript : MonoBehaviour
            
             GameObject discardedCard = currentHand[0];
             currentHand.RemoveAt(0);
-
-           
             discardPile.AddToDiscardPile(discardedCard);
 
-           
+
             UpdateHandText();
         }
     }
