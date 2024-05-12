@@ -6,6 +6,7 @@ using TMPro;
 public class DrawScript : MonoBehaviour
 {
     public DeckList deckList;
+    public DiscardPile discardPile;
     public int drawAmount;
     private Shuffle shuffledDeck;
 
@@ -75,13 +76,29 @@ public class DrawScript : MonoBehaviour
         }
     }
 
-    private void UpdateHandText()
+    public void UpdateHandText()
     {
         handText.text = "Hand:\n";
 
         for (int i = 0; i < currentHand.Count; i++)
         {
             handText.text += currentHand[i].name+"\n";
+        }
+    }
+
+    public void Discard()
+    {
+        if (currentHand.Count > 0)
+        {
+           
+            GameObject discardedCard = currentHand[0];
+            currentHand.RemoveAt(0);
+
+           
+            discardPile.AddToDiscardPile(discardedCard);
+
+           
+            UpdateHandText();
         }
     }
 }
